@@ -4,6 +4,7 @@ npm init
 npm install express mysql cors --save
 npm install nodemon -D
 npm i dotenv -D
+npm install swagger-jsdoc swagger-ui-express
 
 # Create MySQL table
 CREATE TABLE IF NOT EXISTS `tutorials` (
@@ -13,4 +14,3 @@ CREATE TABLE IF NOT EXISTS `tutorials` (
   published BOOLEAN DEFAULT false
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
- 
